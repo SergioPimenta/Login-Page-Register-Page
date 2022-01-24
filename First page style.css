@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Poppins';
+    background: rgb(29, 29, 59)
+
+}
+.container{
+    background: #2f2841;
+    max-width: 500px;
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px 15px;
+    box-shadow: 0 10px 40px #00000056;
+    text-align: center;
+}
+.container .title{
+    font-weight: 800;
+    padding: 5px 0 5px 0;
+    font-size: 30px;
+    color: #00ff88;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    
+}
+.container form .user__details{
+    display: flex;
+    flex-direction: column;
+    color: #f0ffffde;
+
+}
+.container form .user__details .input__box{
+    padding: 5px 0 5px 0;
+    width: calc(100%);
+    
+}
+.user__details .input__box input{
+    height: 35px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    background: #514869;
+    box-shadow: 0 10px 40px #00000056;
+}
+.user__details .input__box input:hover{
+    box-shadow: 0 0 4px 0 #00000056;
+
+}
+
+form .user__details .details{
+    display: block;
+    margin-bottom: 5px;
+    
+}
+.container form .button{
+    padding: 5px 0 5px 0;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+form .button input{
+    width: 215px;
+    height: 35px;
+    outline: none;
+    font-weight: 800;
+    border: none;
+    border-radius: 10px;
+    background: #00ff88;
+    color: #2b134b;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+form .button input:hover{
+    box-shadow: 0 0 10px 0 #00ff8052;
+}
+
+.container form .button2{
+    display: flex;
+    justify-content: center;
+    border-top:  3px solid rgb(29, 29, 59);
+    padding: 15px 0 15px 0;
+}
+
+form .button2 a{
+    width: 350px;
+    height: 50px;
+    font-weight: 900;
+    color:#2b134b;
+    font-size: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background: #00ff88;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form .button2 a:hover{
+    box-shadow: 0 0 10px 0 #00ff8052;
+}
+
+/* Responsividade */
+
+@media only screen and (max-width: 756px){    
+    .container{
+        width: 100%;
+        
+    }
+
+}
+
+
+
+
+
+
+
+
+
